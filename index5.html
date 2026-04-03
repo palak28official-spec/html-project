@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Data Collection Form</title>
+</head>
+<body>
+
+<center>
+    <h2 style="background-color:yellow; display:inline-block; padding:5px;">
+        Student Data Collection Form
+    </h2>
+</center>
+
+<p align="center">
+    Please fill all the details carefully. 
+    <i>All fields are mandatory.</i> 
+    <u>Make sure information is correct.</u>
+</p>
+<hr>
+
+<form>
+
+    
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+
+        Full Name:
+        <input type="text" placeholder="Enter your full name"><br><br>
+
+        Email:
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        Password:
+        <input type="password" placeholder="Enter password"><br><br>
+
+        Age:
+        <input type="number"><br><br>
+
+        Date of Birth:
+        <input type="date"><br><br>
+
+        Upload Photo:
+        <input type="file"><br><br>
+    </fieldset>
+    <br>
+
+    
+    <fieldset>
+        <legend><b>Academic Information</b></legend>
+
+        Branch:
+        <input type="radio" name="branch"> BCA
+        <input type="radio" name="branch"> B.Tech
+        <br><br>
+
+        Skills:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+        <input type="checkbox"> Python
+        <br><br>
+
+        Select Year:
+        <select>
+            <option>--Select Year--</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+        <br><br>
+
+        Portfolio URL:
+        <input type="url" placeholder="https://example.com"><br><br>
+
+        Study Time:
+        <input type="time"><br><br>
+
+        Preferred Week:
+        <select>
+            <option>Select Week</option>
+            <option>Week 1</option>
+            <option>Week 2</option>
+            <option>Week 3</option>
+            <option>Week 4</option>
+        </select>
+        <br><br>
+
+        Preferred Month:
+        <select>
+            <option>Select Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+        </select>
+        <br><br>
+
+        Date & Time of Admission:
+        <input type="datetime-local"><br><br>
+    </fieldset>
+    <br>
+
+    
+    <fieldset>
+        <legend><b>Feedback Section</b></legend>
+
+        Rate Your HTML Knowledge (0-10):
+        <input type="range" min="0" max="10"><br><br>
+
+        Write Your Feedback:<br>
+        <textarea rows="4" cols="50" placeholder="Write your feedback here..."></textarea>
+        <br><br>
+
+        <p><b style="background-color:yellow;">Note:</b> Range is between 0 to 10.</p>
+    </fieldset>
+    <br>
+
+    <center>
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+    </center>
+
+</form>
+
+<hr>
+
+<center>
+    <b>Thank you for registering!</b> <i>We will contact you soon.</i>
+</center>
+
+</body>
+</html>
