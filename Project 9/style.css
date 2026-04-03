@@ -1,0 +1,60 @@
+#first{
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+   color: aliceblue;
+   text-align: center;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+#second{
+    text-align: center;
+}
+.input{
+    text-align: center;
+    background-color: white;
+    color: grey;
+    margin: 80px;
+    padding: 20px;
+    border: 2px solid gray;
+}
+#third{
+    margin: 80px ;
+    padding:40px;
+    border: 2px solid gray;
+    height: 300px;
+    width:150px;
+    display: inline-block;
+
+}
+.buy{
+background-color: rgb(40, 136, 40);
+margin:10px;
+padding: 3px;
+
+}
+.cart{
+background-color: orange;
+margin:10px;
+padding: 3px;
+
+}
+.price{
+    color:red;
+}
+.food-name{
+
+    color: green;
+}
+#fourth{
+    text-align: center;
+    color:white ;
+    background-color: black;
+    padding: 20px;
+    margin: 50px;
+}
